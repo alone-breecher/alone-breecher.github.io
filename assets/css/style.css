@@ -140,8 +140,8 @@ nav img{
     background: radial-gradient(rgb(200, 0, 0),rgb(120,0,0),rgb(0, 0, 0));
 }
 .body .logo_img{
-    width: 100px;
-    height: 100px;  
+    width: 200px;
+    height: 200px;  
 }
 .body .name{
     padding: 4vh 0;
