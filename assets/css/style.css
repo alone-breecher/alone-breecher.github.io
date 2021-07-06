@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 18px;
+    font-size: 15px;
     color: #a9a9b3;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
@@ -271,7 +271,7 @@ i.fa{
         %;
     }
     .body .name{
-        padding: 10vh 0 4vh 0;
+        padding: 4vh 0;
     }
 }
 
