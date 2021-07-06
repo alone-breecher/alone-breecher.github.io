@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 15px;
+    font-size: 18px;
     color: #a9a9b3;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
@@ -258,6 +258,7 @@ i.fa{
     }
     .body{
         height: 60vh;
+	font-size: 15px;
     }
     .about{
         max-width: 80%;
