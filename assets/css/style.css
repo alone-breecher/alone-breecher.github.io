@@ -140,15 +140,6 @@ nav img{
     background: radial-gradient(rgb(200, 0, 0),rgb(120,0,0),rgb(0, 0, 0));
 }
 
-/* new logo */
-.profile_img img.cofe{
-    display: block;
-    width: 80%;
-    height: 80%;
-    border-radius: 45%;
-    background: radial-gradient(rgb(175, 0, 0),rgb(100,0,0),rgb(0, 0, 0));
-}
-
 .body .logo_img{
     width: 200px;
     height: 200px;  
